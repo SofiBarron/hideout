@@ -5,13 +5,38 @@
   box-sizing: border-box;
 }
 
+.mainBgColor {
+  background-color: #0b0c10;
+}
+
+/* Abstracts - Variables + Functions */
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
+/* Layout */
 /* Header - Navbar Responsive Logo */
 .logoB {
   height: 50px;
   width: auto;
 }
 
-/* Footer */
+.menuStyle {
+  background-color: #1f2833;
+}
+
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 .footerStyle {
   display: flex;
   flex-direction: column;
@@ -52,6 +77,14 @@
   align-self: center;
 }
 
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 /* Links Style */
 a {
   font-family: "Lato", sans-serif;
@@ -70,6 +103,14 @@ a:active {
   font-weight: bold;
 }
 
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 /* Forms */
 .formStyle {
   font-family: "Lato", sans-serif;
@@ -102,8 +143,15 @@ input[type=text], [type=email], textarea {
   color: #0b0c10;
 }
 
-
-/* Index - Section Titles and Subtitles */
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
+/* Section Titles and Subtitles */
 .sectionName {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
@@ -151,6 +199,15 @@ input[type=text], [type=email], textarea {
   margin-bottom: 15px;
 }
 
+/* Components */
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 button {
   font-family: "Lato", sans-serif;
   background-color: #66fcf1;
@@ -281,6 +338,15 @@ button {
   margin-bottom: 15px;
 }
 
+/* Pages */
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 /* About - Page Title */
 .aboutSubtitle {
   text-indent: 8px;
@@ -310,6 +376,14 @@ button {
   text-indent: 8px;
 }
 
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 /* Blog + Picks - Titles */
 .articleTitle {
   font-family: "Raleway", sans-serif;
@@ -338,6 +412,14 @@ button {
   margin: 15px 0px;
 }
 
+/* Background Color */
+/* Box - Background Color */
+/* Box - Background */
+/* Button Colours */
+/* Font Families */
+/* Font Colour Variations */
+/* Form - Input */
+/* Borders Color Variations */
 /* Welcome Section */
 .welcomeText {
   box-sizing: border-box;
