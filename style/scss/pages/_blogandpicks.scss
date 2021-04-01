@@ -1,0 +1,29 @@
+@import '../abstracts/variables';
+
+/* Blog + Picks - Titles */
+.articleTitle {
+    font-family: $fontTitles;
+    font-size: 18px;
+    color: $fontColorHighlight;
+    font-weight: bold;
+    text-decoration:wavy;
+    margin: 5px 0px;
+}
+
+/* Blog + Picks - Author */
+.articleAuthor {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    padding-bottom: 15px;
+    margin: 15px 0px;
+}
+
+/* Blog + Picks - Paragraphs */
+.articleParagraph {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    font-weight: normal;
+    text-align: justify;
+    text-indent: 8px;
+    margin: 15px 0px;
+}

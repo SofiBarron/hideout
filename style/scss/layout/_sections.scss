@@ -1,0 +1,41 @@
+@import '../abstracts/variables';
+
+/* Section Titles and Subtitles */
+.sectionName {
+    font-family: $fontTitles;
+    font-size: 30px;
+    font-weight: bolder;
+    color: $fontColorSubtle;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.slash {
+    color: $fontColorHighlight;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0 10px;
+    margin-top: 4px;
+    display: contents;
+}
+
+.sectionContainer {
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 5px;
+}
+
+.sectionContainer .sectionSubtitle {
+    font-family: $fontOthers;
+    font-weight: normal;
+    font-size: 20px;
+    color: $fontColorText;
+    display: flex;
+    margin-top: 6px;
+    text-indent: 4px;
+}
+
+.sectionDescContainer {
+    display: flex;
+    justify-content: flex-start;
+}

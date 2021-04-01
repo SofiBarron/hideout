@@ -1,0 +1,33 @@
+/* Background Color */
+$bg-color: #1f2833;
+
+/* Box - Background Color */
+$box-bg-color: rgba(24,36,45,.71);
+$box-bg-colorb: rgba(24, 36, 45, 0.5);
+
+/* Box - Background */
+$box-bg:  rgba(73, 90, 88, 0.77);
+
+/* Button Colours */
+$bt-bg-color: #66fcf1;
+$bt-color: #1f2833;
+
+/* Font Families */
+$fontTitles: 'Raleway', sans-serif;
+$fontOthers: 'Lato', sans-serif;
+
+/* Font Colour Variations */
+$colorFontList: #c5c6c7, #66fcf1, #45a29e, #1f2833, #0b0c10;
+$fontColorText: nth($colorFontList, 1);
+$fontColorHighlight: nth($colorFontList, 2);
+$fontColorSubtle: nth($colorFontList, 3);
+$fontColorGrey: nth($colorFontList, 4);
+$fontColorDark: nth($colorFontList, 5);
+
+/* Form - Input */
+$form-bg-color: #66fcf1;
+
+/* Borders Color Variations */
+$borderColorVar: #45a29e, #1f2833;
+$borderColorGreen: nth($borderColorVar, 1);
+$borderColorGrey: nth($borderColorVar, 2);

@@ -1,0 +1,41 @@
+@import '../abstracts/variables';
+
+.footerStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: $bg-color;
+    margin-top: 25px;
+}
+
+/* Social Links */
+.socialLinks {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.twitter {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 0 5px;
+}
+
+/* Sections Links */
+.infoLinks {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+/* Section Links - Dot */
+.dot {
+    color: $fontColorSubtle;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

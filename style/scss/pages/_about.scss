@@ -1,0 +1,30 @@
+@import '../abstracts/variables';
+
+/* About - Page Title */
+.aboutSubtitle {
+    text-indent: 8px;
+    font-family: $fontOthers;
+    font-weight: normal;
+    font-size: 20px;
+    color: $fontColorText;
+}
+
+/* About Page - Member Name */
+.membersTitle {
+    font-family: $fontTitles;
+    color: $fontColorHighlight;
+    font-weight:lighter;
+    text-decoration-line:underline;
+    margin: 15px 0px 15px 5px;
+}
+
+/* About Page - Members Bio */
+.membersParagraph {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 15px;
+    text-indent: 8px;
+}

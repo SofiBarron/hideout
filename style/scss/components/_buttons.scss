@@ -1,0 +1,15 @@
+@import '../abstracts/variables';
+
+button {
+    font-family: $fontOthers;
+    background-color: $bt-bg-color;
+    color: $fontColorGrey;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    margin: 5px 0;
+    padding: 18px 40px;
+    cursor: pointer;
+}

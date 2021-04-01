@@ -1,0 +1,78 @@
+@import '../abstracts/variables';
+
+/* Welcome Section */
+.welcomeText {
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 4px;
+    padding-left: 15px;
+    background-color: $box-bg-color;
+    opacity: 1;
+    margin-left: 7%;
+}
+
+.introTitle {
+    font-family: $fontTitles;
+    font-weight: bolder;
+    color: $fontColorSubtle;
+    margin-bottom: .5rem;
+}
+
+.introParagraph {
+    font-family: $fontOthers;
+    font-weight: lighter;
+    color: $fontColorText;
+    font-size: 20px;
+    margin-bottom: .5rem;
+    display: inline;
+}
+
+.jumbotronImg {
+    background-size: cover;
+    height: 100%;
+}
+
+.jumbotronCard {
+    box-sizing: content-box;
+    border: 1px solid $borderColorGrey;
+    border-radius: 4px;
+    background-color: $box-bg-colorb;
+    opacity: 1;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.hookIntro {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+
+.buttonColor {
+    background-color: $bt-bg-color;
+}
+
+/* Article Title */
+.articleTitleHome {
+    font-family: $fontTitles;
+    color: $fontColorHighlight;
+    font-weight: lighter;
+    text-decoration:wavy;
+    margin: 5px 0px;
+}
+
+/* Blog's Articles */
+.articleParagraphIndex {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    font-weight: normal;
+}
+
+.articleTopic {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    font-weight: lighter;
+    text-align: center;
+}
