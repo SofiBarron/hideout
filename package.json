@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofiBarron/hideout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SofiBarron/hideout/issues"
+  },
+  "homepage": "https://github.com/SofiBarron/hideout#readme",
   "description": ""
 }
