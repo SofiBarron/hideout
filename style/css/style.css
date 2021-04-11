@@ -350,22 +350,51 @@ button {
 /* Font Colour Variations */
 /* Form - Input */
 /* Borders Color Variations */
-/* About - Page Title */
-.aboutSubtitle {
-  text-indent: 8px;
-  font-family: "Lato", sans-serif;
-  font-weight: normal;
-  font-size: 20px;
-  color: #c5c6c7;
+/* About - Page Background Story */
+.aboutStory {
+  display: flex;
+  margin-bottom: 20px;
 }
 
-/* About Page - Member Name */
+.aboutImg {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* About - Page Subtitles */
+.aboutSubtitle {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: #66fcf1;
+}
+
+.aboutHighlight {
+  font-family: "Lato", sans-serif;
+  color: #45a29e;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* About - Page Par. */
+.aboutText {
+  font-family: "Lato", sans-serif;
+  color: #c5c6c7;
+  text-indent: 8px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+/* About Page - The Team */
 .membersTitle {
+  display: flex;
   font-family: "Raleway", sans-serif;
   color: #66fcf1;
-  font-weight: lighter;
-  text-decoration-line: underline;
+  font-weight: bold;
+  font-size: 20px;
   margin: 15px 0px 15px 5px;
+  justify-content: flex-end;
 }
 
 /* About Page - Members Bio */
@@ -377,6 +406,8 @@ button {
   text-align: justify;
   margin-bottom: 15px;
   text-indent: 8px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* Background Color */
@@ -512,6 +543,7 @@ button {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 5px auto;
 }
 
 .picksImg {
@@ -524,11 +556,25 @@ button {
   margin-right: 15px;
 }
 
-.picksElementText {
+.picksTitle {
+  font-family: "Raleway", sans-serif;
+  color: #c5c6c7;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.picksAuthor {
+  font-family: "Lato", sans-serif;
+  color: #45a29e;
+  font-weight: bold;
+  font-size: small;
+}
+
+.picksDate {
   font-family: "Lato", sans-serif;
   color: #c5c6c7;
   font-weight: normal;
-  font-size: medium;
+  font-size: smaller;
 }
 
 /*# sourceMappingURL=style.css.map */
