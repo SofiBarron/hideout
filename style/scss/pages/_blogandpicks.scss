@@ -3,27 +3,100 @@
 /* Blog + Picks - Titles */
 .articleTitle {
     font-family: $fontTitles;
-    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1.15;
+    text-transform: none;
     color: $fontColorHighlight;
-    font-weight: bold;
-    text-decoration:wavy;
-    margin: 5px 0px;
+    margin: 10px 0;
+}
+
+/* Blog + Picks - Summary */
+.articleSummary {
+    font-family: $fontOthers;
+    color: $fontColorSubtle;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.24;
+    font-style: italic;
+    font-size: 1.45rem;
+    margin-bottom: .6rem;
 }
 
 /* Blog + Picks - Author */
 .articleAuthor {
     font-family: $fontOthers;
     color: $fontColorText;
+    font-weight: 400;
+    letter-spacing: normal;
+    font-size: .8rem;
     padding-bottom: 15px;
     margin: 15px 0px;
 }
 
+/* Blog + Picks - Dividing Line */
+.line {
+    border-bottom: 1px solid $fontColorGrey;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 /* Blog + Picks - Paragraphs */
+.articleFirstParagraph {
+    font-family: $fontOthers;
+    font-size: 1.2rem;
+    color: $fontColorText;
+    text-align: justify;
+}
+
+.firstLetter {
+    font-family: $fontOthers;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3em;
+    color: $fontColorHighlight;
+    line-height: 1;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.articleKeys {
+    font-family: $fontOthers;
+    font-style: normal;
+    font-weight: lighter;
+    color: $fontColorSubtle;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    line-height: 1.15;
+    margin: 15px 0;
+}
+
 .articleParagraph {
     font-family: $fontOthers;
     color: $fontColorText;
     font-weight: normal;
+    font-size: 18px;
     text-align: justify;
     text-indent: 8px;
-    margin: 15px 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Blog + Picks - Media */
+.articleMedia {
+    display: flex;
+    justify-content: center;
+}
+
+.articleCaption {
+    background-color: $fontColorHighlight;
+    font-family: $fontOthers;
+    color: $fontColorDark;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
 }
