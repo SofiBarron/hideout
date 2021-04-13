@@ -1,0 +1,9 @@
+@import '../abstracts/variables';
+
+.contactText {
+    font-family: $fontOthers;
+    color: $fontColorText;
+    text-indent: 8px;
+    font-weight: 400;
+    font-size: 18px;
+}
