@@ -7,16 +7,7 @@
 .mainBgColor {
   background-color: #0b0c10; }
 
-/* Abstracts - Variables + Functions */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
-/* Layout */
+
 /* Header - Navbar Responsive Logo */
 .logoB {
   height: 50px;
@@ -25,14 +16,7 @@
 .menuStyle {
   background-color: #1f2833; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
 /* Form - Input */
-/* Borders Color Variations */
 .footerStyle {
   display: flex;
   flex-direction: column;
@@ -68,14 +52,7 @@
   flex-direction: column;
   align-self: center; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+
 /* Links Style */
 a {
   font-family: 'Lato', sans-serif;
@@ -91,14 +68,6 @@ a {
     color: #45a29e;
     font-weight: bold; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Forms */
 .formStyle {
   font-family: "Lato", sans-serif;
@@ -131,14 +100,6 @@ input[type=text], [type=email], textarea {
 .formHeight {
   height: 200px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Section Titles and Subtitles */
 .sectionName {
   font-family: "Raleway", sans-serif;
@@ -181,15 +142,7 @@ input[type=text], [type=email], textarea {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-/* Components */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
 /* Form - Input */
-/* Borders Color Variations */
 button {
   font-family: "Lato", sans-serif;
   background-color: #66fcf1;
@@ -203,6 +156,7 @@ button {
   padding: 18px 40px;
   cursor: pointer; }
 
+/* Carousel */
 .carousel .carousel-item {
   height: 500px; }
 
@@ -301,15 +255,6 @@ button {
   max-width: 100%;
   margin-bottom: 15px; }
 
-/* Pages */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* About - Title Detail */
 .underscore {
   color: #66fcf1;
@@ -351,14 +296,6 @@ button {
   text-align: justify;
   font-size: 18px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Blog + Picks - Titles */
 .articleTitle {
   font-family: "Raleway", sans-serif;
@@ -450,14 +387,8 @@ button {
   justify-content: center;
   margin-top: 0; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+
+/* Index */
 /* Welcome Section */
 .welcomeText {
   box-sizing: border-box;
@@ -564,14 +495,7 @@ button {
   font-weight: normal;
   font-size: smaller; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+/* Contact Page - Text */
 .contactText {
   font-family: "Lato", sans-serif;
   color: #c5c6c7;
@@ -579,15 +503,7 @@ button {
   font-weight: 400;
   font-size: 18px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
-/* Recommendations - Card Styles */
+/* Recommendations Page - Card Styles */
 .cardStyle {
   background-color: rgba(73, 90, 88, 0.77); }
 
@@ -624,7 +540,7 @@ button {
   font-size: 1rem;
   margin: 0; }
 
-/* Picks - Media Queries */
+/* Recommendations - Media Queries */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .picksSelectFeatTitle {
     font-size: 1.25rem; }
