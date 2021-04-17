@@ -1,7 +1,7 @@
 {
   "name": "hideout",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blog that works as the final project for the Web Development Course at CoderHouse. ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
