@@ -7,16 +7,6 @@
 .mainBgColor {
   background-color: #0b0c10; }
 
-/* Abstracts - Variables + Functions */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
-/* Layout */
 /* Header - Navbar Responsive Logo */
 .logoB {
   height: 50px;
@@ -25,14 +15,7 @@
 .menuStyle {
   background-color: #1f2833; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+/* Footer */
 .footerStyle {
   display: flex;
   flex-direction: column;
@@ -68,14 +51,6 @@
   flex-direction: column;
   align-self: center; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Links Style */
 a {
   font-family: 'Lato', sans-serif;
@@ -91,14 +66,6 @@ a {
     color: #45a29e;
     font-weight: bold; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Forms */
 .formStyle {
   font-family: "Lato", sans-serif;
@@ -131,14 +98,6 @@ input[type=text], [type=email], textarea {
 .formHeight {
   height: 200px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Section Titles and Subtitles */
 .sectionName {
   font-family: "Raleway", sans-serif;
@@ -190,15 +149,8 @@ input[type=text], [type=email], textarea {
   margin-top: 15px;
   margin-bottom: 15px; }
 
-/* Components */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+
+/* Button Style */
 button {
   font-family: "Lato", sans-serif;
   background-color: #66fcf1;
@@ -571,7 +523,7 @@ button::-moz-focus-inner {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #000; }
 
-/* Main image in popup */
+/* Main image in pop-up */
 img.mfp-img {
   width: auto;
   max-width: 100%;
@@ -680,15 +632,6 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
-/* Pages */
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* About - Page Background Story */
 .aboutStory {
   display: flex;
@@ -721,14 +664,6 @@ img.mfp-img {
   text-align: justify;
   font-size: 18px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Blog + Picks - Titles */
 .articleTitle {
   font-family: "Raleway", sans-serif;
@@ -820,14 +755,6 @@ img.mfp-img {
   justify-content: center;
   margin-top: 0; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
 /* Welcome Section */
 .welcomeText {
   box-sizing: border-box;
@@ -895,14 +822,8 @@ img.mfp-img {
   font-weight: lighter;
   text-align: center; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+
+/* Contact - Text */
 .contactText {
   font-family: "Lato", sans-serif;
   color: #c5c6c7;
@@ -910,14 +831,7 @@ img.mfp-img {
   font-weight: 400;
   font-size: 18px; }
 
-/* Background Color */
-/* Box - Background Color */
-/* Box - Background */
-/* Button Colours */
-/* Font Families */
-/* Font Colour Variations */
-/* Form - Input */
-/* Borders Color Variations */
+
 /* Hex Grid */
 #hexGrid {
   display: grid;
